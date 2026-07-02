@@ -32,5 +32,40 @@ ul li a:hover {
   background-color: #111111;
 }
 .left{
-    float: right;
+    float: left;
+    margin-left:20px;
+    margin-right: 100px;
 }
+.One{
+    background-color: rgb(210, 55, 73);
+            width: 170px;
+            padding: 20px;
+            margin:20px auto ;
+}
+ .padding{
+            background-color: rgb(180, 71, 88);
+            width: 90px;
+ }
+ .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+
+        .clearfix {
+            display: inline-block;
+        }
+
+        /* start commented backslash hack \*/
+        * html .clearfix {
+            height: 1%;
+        }
+
+        .clearfix {
+            display: block;
+        }
+
+        /* close commented backslash hack */
